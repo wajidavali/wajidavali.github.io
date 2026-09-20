@@ -1,0 +1,25 @@
+<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconGradient" x1="20" y1="20" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="240" fill="transparent"/>
+
+  <g transform="translate(20,20)">
+    <rect x="0" y="0" width="170" height="170" rx="38" fill="url(#iconGradient)"/>
+    <path d="M115 46C85 46 64 60 64 86C64 103 73 116 90 123L110 130C125 136 133 143 133 156C133 170 121 181 102 181H65C58 181 53 176 53 169V141C53 134 58 129 65 129H93C103 129 110 124 110 116C110 108 103 103 93 98L72 90C52 82 42 70 42 54C42 35 56 23 81 23H114C121 23 126 28 126 35V59C126 66 121 71 114 71H83C76 71 71 75 71 82C71 89 76 93 83 93H110C124 93 136 102 136 116C136 130 125 141 110 141H85C79 141 74 136 74 130V110C74 104 79 99 85 99H100C110 99 116 94 116 86C116 78 110 73 100 73H59C53 73 48 68 48 62V29C48 23 53 18 59 18H114C126 18 136 27 136 39V46H115Z" fill="white"/>
+    <path d="M36 118L71 85L97 101L138 61" stroke="#E0ECFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="36" cy="118" r="6" fill="#D8E9FF"/>
+    <circle cx="138" cy="61" r="6" fill="#D8E9FF"/>
+  </g>
+
+  <g transform="translate(235,57)">
+    <text x="0" y="51" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="#0F172A" letter-spacing="1.2">SILIXUS</text>
+    <text x="2" y="86" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#475569" letter-spacing="5">SOFTWARE • AI • DEVOPS</text>
+    <rect x="0" y="108" width="320" height="4" rx="2" fill="url(#iconGradient)"/>
+  </g>
+</svg>

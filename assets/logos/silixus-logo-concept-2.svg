@@ -1,0 +1,24 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="30" y1="12" x2="170" y2="182" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A"/>
+      <stop offset="0.55" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="220" fill="#F5F7FB"/>
+
+  <g transform="translate(24 20)">
+    <rect x="0" y="0" width="180" height="180" rx="42" fill="url(#g2)"/>
+    <path d="M135 43C102 43 74 62 74 95C74 128 101 142 126 150L143 156C155 161 162 170 162 181C162 196 150 206 131 206H73C67 206 63 202 63 196V165C63 159 67 155 73 155H116C126 155 132 151 132 143C132 135 126 131 116 126L87 114C60 103 47 86 47 63C47 37 66 19 97 19H134C140 19 144 23 144 29V57C144 63 140 67 134 67H99C90 67 85 72 85 79C85 86 90 91 99 91H129C142 91 154 101 154 116C154 131 143 142 128 142H100C93 142 88 137 88 130V107C88 101 93 96 100 96H110C118 96 122 92 122 85C122 78 118 74 110 74H60C54 74 50 70 50 64V31C50 25 54 21 60 21H133C143 21 150 28 150 38V43H135Z" fill="white"/>
+    <path d="M26 132L53 105L82 123L124 81" stroke="#DDE7FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M119 81H145V107" stroke="#DDE7FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(238 58)">
+    <text x="0" y="44" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="#0F172A">SILIXUS</text>
+    <text x="2" y="86" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#56657A" letter-spacing="4">RESEARCH • DEVELOPMENT • SERVICES</text>
+    <rect x="0" y="108" width="220" height="5" rx="2.5" fill="url(#g2)"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g3" x1="25" y1="25" x2="185" y2="185" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="220" fill="#F5F7FB"/>
+
+  <g transform="translate(28 26)">
+    <circle cx="82" cy="84" r="76" stroke="url(#g3)" stroke-width="10"/>
+    <circle cx="82" cy="84" r="48" fill="#EEF2FF"/>
+    <path d="M116 54C95 49 78 49 57 63C47 70 39 79 35 90C31 101 33 111 42 119C52 129 66 132 81 132C92 132 102 129 110 123C120 116 126 106 126 94C126 85 123 78 117 72C111 66 101 61 91 60H76" stroke="#0F172A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 113C116 116 128 125 134 138C139 149 138 162 129 171" stroke="#14B8A6" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="26" cy="84" r="6" fill="#4F46E5"/>
+    <circle cx="134" cy="84" r="6" fill="#14B8A6"/>
+    <circle cx="82" cy="20" r="6" fill="#0F172A"/>
+    <circle cx="82" cy="148" r="6" fill="#4F46E5"/>
+  </g>
+
+  <g transform="translate(220 72)">
+    <text x="0" y="42" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="800" fill="#0F172A" letter-spacing="1">SILIXUS</text>
+    <text x="2" y="82" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#56657A" letter-spacing="5">AI INNOVATION LAB</text>
+    <rect x="0" y="104" width="280" height="5" rx="2.5" fill="url(#g3)"/>
+  </g>
+</svg>

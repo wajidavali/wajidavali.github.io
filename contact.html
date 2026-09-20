@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | silixus</title>
+    <meta name="description" content="Contact silixus to discuss your website, brand, or digital growth goals." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="index.html" class="brand" aria-label="silixus home">
+          <img src="Copilot_20260921_012351.png" alt="silixus logo" class="brand-logo" />
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <a href="contact.html" class="button button-primary">Book a Call</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container narrow">
+          <p class="eyebrow">Contact</p>
+          <h1>Tell us about your next digital project.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Let’s talk</h2>
+            <p>We’d love to learn about your brand, objectives, and where you want to grow next.</p>
+            <ul class="contact-list">
+              <li>Email: hello@silixus.com</li>
+              <li>Phone: +1 (555) 301-2048</li>
+              <li>Location: Global / Remote-first</li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Company
+              <input type="text" name="company" placeholder="Your company" />
+            </label>
+            <label>
+              Project details
+              <textarea name="message" rows="5" placeholder="Tell us a little about your goals..."></textarea>
+            </label>
+            <button type="submit" class="button button-primary">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <span>silixus</span>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>© <span id="year"></span> silixus. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="silixusGradient" x1="40" y1="20" x2="260" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.42" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="silixusLine" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" fill="#F5F7FB"/>
+
+  <g transform="translate(60,60)">
+    <rect x="0" y="0" width="220" height="220" rx="52" fill="url(#silixusGradient)"/>
+
+    <path d="M151 54C117 54 87 73 87 106C87 140 114 155 138 163L159 170C176 176 185 186 185 201C185 220 169 232 146 232H78C70 232 64 226 64 218V182C64 174 70 168 78 168H132C148 168 156 162 156 151C156 139 148 133 133 127L104 115C71 100 53 82 53 56C53 28 74 10 109 10H147C156 10 163 17 163 26V58C163 67 156 74 147 74H112C99 74 91 81 91 90C91 99 99 106 112 106H146C165 106 180 120 180 138C180 157 166 170 145 170H103C94 170 88 163 88 154V128C88 120 94 114 103 114H119C131 114 138 108 138 98C138 88 130 83 119 83H65C58 83 52 77 52 70V27C52 19 58 13 66 13H145C160 13 172 25 172 40V54H151Z" fill="white"/>
+
+    <path d="M48 170L78 142L110 162L156 112" stroke="#DCE7FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M151 112H188V149" stroke="#DCE7FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="48" cy="170" r="7" fill="#DCE7FF"/>
+    <circle cx="188" cy="149" r="7" fill="#DCE7FF"/>
+  </g>
+
+  <g transform="translate(342,120)">
+    <text x="0" y="76" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" fill="#0F172A" letter-spacing="1.5">SILIXUS</text>
+    <text x="2" y="126" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#56657A" letter-spacing="6">SOFTWARE • AI • DEVOPS</text>
+    <rect x="0" y="152" width="430" height="6" rx="3" fill="url(#silixusLine)"/>
+    <text x="0" y="208" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" fill="#475569">Research, Innovation &amp; Digital Transformation</text>
+  </g>
+</svg>

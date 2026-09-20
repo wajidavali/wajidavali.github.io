@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silixus Logo Concepts</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --text: #0f172a;
+        --muted: #56657a;
+        --line: #e8edf7;
+        --blue: #4f46e5;
+        --teal: #14b8a6;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 48px 20px 80px;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 18px;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+      .subtitle {
+        text-align: center;
+        color: var(--muted);
+        max-width: 700px;
+        margin: 0 auto 48px;
+        line-height: 1.6;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 24px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 26px;
+        box-shadow: 0 16px 30px rgba(15, 23, 42, 0.05);
+      }
+      .card h2 {
+        margin: 0 0 20px;
+        font-size: 1.2rem;
+      }
+      .logo-box {
+        display: grid;
+        place-items: center;
+        min-height: 240px;
+        background: linear-gradient(180deg, #f8faff, #f3f6ff);
+        border-radius: 16px;
+        border: 1px solid var(--line);
+        padding: 18px;
+      }
+      .logo-box img {
+        max-width: 100%;
+        height: auto;
+      }
+      .note {
+        margin-top: 18px;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .tag {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: rgba(79, 70, 229, 0.08);
+        color: var(--blue);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Silixus Logo Concepts</h1>
+      <p class="subtitle">
+        Sample brand directions for a software research, development, and AI/DevOps innovation company.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h2>Concept 1 — Trust & Tech</h2>
+          <div class="logo-box">
+            <img src="assets/logos/silixus-logo-concept-1.svg" alt="Silixus logo concept 1" />
+          </div>
+          <div class="tag">Best for enterprise</div>
+          <p class="note">
+            A strong geometric S symbol with circuit-inspired lines, suited for software engineering, DevOps, and AI-driven innovation.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Concept 2 — Growth & Innovation</h2>
+          <div class="logo-box">
+            <img src="assets/logos/silixus-logo-concept-2.svg" alt="Silixus logo concept 2" />
+          </div>
+          <div class="tag">Best for growth-focused brand</div>
+          <p class="note">
+            Combines the S monogram with an upward motion arrow to represent progress, optimization, and digital transformation.
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Concept 3 — AI Systems</h2>
+          <div class="logo-box">
+            <img src="assets/logos/silixus-logo-concept-3.svg" alt="Silixus logo concept 3" />
+          </div>
+          <div class="tag">Best for AI/automation</div>
+          <p class="note">
+            Ideal for a modern AI and DevOps brand, using a circular data-system look with strong wordmark presence.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
